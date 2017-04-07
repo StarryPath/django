@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+{%for emp in emps%}
+<div><a href="{{ forloop.counter }}">{{ forloop.counter }}:{{emp}}</a></div>
+{%endfor%}
+</body>
+</html>
